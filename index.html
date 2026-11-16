@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Samer Mohammad Mahmoud, Mobile Application Development student at UCAS.">
+    <title>Samer Mohammad Mahmoud | Portfolio</title>
+</head>
+<body>
+
+    <header id="home">
+        <h1>Samer Mohammad Mahmoud</h1>
+        <p>Mobile Application Development Student &amp; Aspiring Developer</p>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="intro">
+            <h2>Welcome to My Portfolio</h2>
+            <img src="images/profile.jpg" alt="Profile photo of Samer Mohammad Mahmoud" width="200">
+            <p>
+                Hello! My name is Samer Mohammad Mahmoud, and I am a university student
+                passionate about technology and building useful applications.
+                I study Mobile Application Development at UCAS, where I am learning
+                how to design and develop apps step by step.
+                This website is the first version of my personal portfolio,
+                and I will keep improving it as I learn more web technologies.
+            </p>
+            <p><strong>Current status:</strong> Undergraduate student at UCAS (2025&ndash;2029).</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <h3>Background</h3>
+            <p>
+                I attended Ahmad Al-Shuqairi School before joining UCAS in 2025
+                to study Mobile Application Development.
+            </p>
+
+            <h3>Interests</h3>
+            <p>
+                I am interested in programming, mobile apps, web development,
+                and learning new technologies.
+            </p>
+
+            <h3>Career Objectives</h3>
+            <p>
+                My goal is to become a professional mobile application developer
+                who builds clean, useful, and user-friendly apps.
+            </p>
+
+            <h3>Currently Learning</h3>
+            <p>
+                I am currently learning HTML5 and the fundamentals of web development
+                as part of my university courses.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <h3>Web Technologies</h3>
+            <ul>
+                <li>HTML5 (learning)</li>
+                <li>Semantic markup</li>
+                <li>Building forms and tables</li>
+            </ul>
+
+            <h3>Tools</h3>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Git and GitHub (basics)</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Problem solving</li>
+                <li>Teamwork</li>
+                <li>Time management</li>
+                <li>Willingness to learn</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Project 1: Personal Portfolio Website</h3>
+                <img src="images/project-1.jpg" alt="Screenshot of my personal portfolio website" width="300">
+                <p>
+                    The website you are viewing now. It introduces me, shows my skills,
+                    projects, and education, and includes a contact form.
+                </p>
+                <p><strong>Technologies used:</strong> HTML5</p>
+                <p><a href="index.html">View project</a></p>
+            </article>
+
+            <article>
+                <h3>Project 2: Study Schedule</h3>
+                <img src="images/project-2.jpg" alt="Screenshot of my weekly study schedule page" width="300">
+                <p>
+                    A weekly study schedule page that organizes my courses and study times
+                    in a clear table.
+                </p>
+                <p><strong>Technologies used:</strong> HTML5 (tables, headings, lists)</p>
+                <p><a href="study-schedule.html">View project</a></p>
+            </article>
+
+            <article>
+                <h3>Project 3: Recipes Page</h3>
+                <img src="images/project-3.jpg" alt="Screenshot of my recipes web page" width="300">
+                <p>
+                    A recipes page that lists ingredients and preparation steps
+                    using ordered and unordered lists.
+                </p>
+                <p><strong>Technologies used:</strong> HTML5 (lists, images, links)</p>
+                <p><a href="recipes.html">View project</a></p>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1">
+                <caption>My educational background</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Degree / Qualification</th>
+                        <th scope="col">Field of Study</th>
+                        <th scope="col">Start Year</th>
+                        <th scope="col">Graduation Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UCAS</td>
+                        <td>Bachelor's Degree</td>
+                        <td>Mobile Application Development</td>
+                        <td>2025</td>
+                        <td>2029 (expected)</td>
+                    </tr>
+                    <tr>
+                        <td>Ahmad Al-Shuqairi School</td>
+                        <td>High School Diploma</td>
+                        <td>General Secondary Education</td>
+                        <td>2023</td>
+                        <td>2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+                </p>
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </p>
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40" placeholder="Write your message here" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+            </form>
+
+            <h3>Other Ways to Reach Me</h3>
+            <p>Email: <a href="mailto:smahmoud1@smail.ucas.edu.ps">smahmoud1@smail.ucas.edu.ps</a></p>
+            <ul>
+                <li><a href="https://github.com/AL7samer" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.instagram.com/samer.ma7moud" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Samer Mohammad Mahmoud. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>
+            <a href="https://github.com/AL7samer" target="_blank" rel="noopener noreferrer">GitHub</a> |
+            <a href="https://www.instagram.com/samer.ma7moud" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
